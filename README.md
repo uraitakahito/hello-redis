@@ -1,4 +1,5 @@
 ```console
+% docker network ls
 % docker network create redis-network
 % docker run -d --rm --network redis-network -p 6379:6379 --name redis-server redis
 % docker run -it --rm --network redis-network redis redis-cli -h redis-server ping
