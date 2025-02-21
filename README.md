@@ -8,3 +8,5 @@ PONG
 ```
 
 Next, point your browser to [http://localhost:5540](http://localhost:5540)
+
+Alternatively, the [MONITOR](https://redis.io/docs/latest/commands/monitor/) command can also help with debugging.
